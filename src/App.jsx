@@ -13,6 +13,7 @@ const App = () => {
 			setusers(data);
 		} catch (error) {
 			console.log(error);
+			alert('failed to fetch data');
 		}
 	};
 
